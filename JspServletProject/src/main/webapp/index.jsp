@@ -9,9 +9,9 @@
 </head>
 <body>
 <%@ include file="./header/header.jsp" %>
-
-
-<h2> Hello World</h2>
+<br><br><br><br>
+<%= (request.getAttribute("Status")) == null ?"":request.getAttribute("Status") %>
+<%@ include file="./main/registration.jsp" %>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
